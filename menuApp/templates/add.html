@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form name="form" action="/menuApp/loggedin/" method="POST" >
+
+        {% csrf_token %}
+        <input type = "text" style = "margin-left:20%;"
+                  placeholder = "Uzytkownik" name = "title" />
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
